@@ -1,5 +1,5 @@
 import { body } from "express-validator";
-import { validateResult } from "../utils/validateUtiljs";
+import { validateResult } from "../utils/validateUtil.js";
 
 const updateCustomerValidator = () => {
    return [
